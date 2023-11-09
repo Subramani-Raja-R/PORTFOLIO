@@ -1,0 +1,140 @@
+*{
+    scroll-behavior: smooth;
+}
+.detail
+{
+    position: absolute;
+    top: 0px;
+    left:0px;
+    width:100%;
+    
+    height: 800px;
+    
+    background-image: linear-gradient(to right,rgb(0, 0, 0) ,rgb(26, 24, 24),#2C2C2C,#434343,#434343 );
+    
+}
+.navi
+{
+    list-style-type: none;
+}
+.navi li a
+{
+    text-decoration: none;
+    color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+    font-weight: bolder;
+    margin-right: 70px;
+    position: relative;
+    top: 60px;
+    left: 850px;
+    line-height: 20px;
+    z-index: 1;
+
+}
+.intro
+{
+    color: white;
+    z-index: 1;
+}
+.vector img
+{
+    
+    position: relative;
+    width: 200px;
+    margin-right: 100px;
+    top: 810px;
+    left: -200px;
+    float: left;
+    z-index: 1;
+}
+body{
+    width:100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.about
+{
+    position: relative;
+    top: 1065px;
+    width:100%;
+    height:650px;
+    background-color: lightgray;
+}
+.about h1
+{
+    font-size: 50px;
+}
+.studies
+{
+    position: absolute;
+    width: 1710px;
+    left: 100px;
+    top: 170px;
+    
+}
+.studies p
+{
+    font-family:cursive;
+    font-size: 30px;
+}
+.skills
+{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    top: 1065px;
+    background-color:linen;
+}
+.skills h1
+{
+    font-size: 50px;
+}
+.right
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 70px;
+   
+}
+.right>.b1
+{
+    padding: 150px;
+    
+}
+.b1
+{   
+    font-size: 30px;
+}
+.contact
+{
+    position:relative;
+    width: 100%;
+    height:400px;
+    top: 1045px;
+    background-color:rgb(27, 29, 30);
+    
+}
+.contact h1
+{
+    color: aliceblue;
+    position: relative;
+    top:100px;
+    left: 46%;
+    
+}
+.imgg
+{
+   float: left;
+   position: relative;
+   padding:20px 40px;
+   top:110px;
+   left: 43%;
+   
+    
+    
+}
